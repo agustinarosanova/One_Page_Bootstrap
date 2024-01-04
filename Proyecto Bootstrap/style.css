@@ -1,0 +1,366 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+
+body{
+
+    
+    background-image: url(./76275.webp);
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    
+}
+   
+header{
+    
+    background-image: url(./76275.webp);
+    padding-top: 88px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: stretch;
+    gap: 15px;
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+   
+}
+
+h1{
+
+    
+    font-family:'cinzel';
+    color: rgb(231, 200, 181);
+    font-size: 70px;
+    text-align: left;
+    text-shadow: 2px 2px 5px rgb(18, 77, 109);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    border-radius: 2%;
+
+    
+}
+
+@keyframes cambioColor{
+    from{
+        text-shadow: 2px 1px 2px rgb(101, 115, 122);
+ 
+    }
+    to{
+        text-shadow: 2px 1px 2px #65809b;
+       
+    }
+}
+
+nav{
+
+    height: 40px;
+    border-bottom: 20px;
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+    
+}
+
+#menu{
+
+    
+    background-image: url(./76275.webp);
+    box-shadow: rgb(237, 243, 255) 1px 1px 6px;   
+}
+
+.nav-item:hover{
+    background-color: #91c1e7;
+
+}
+
+main{
+
+    border-radius: 2%;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    border-top: 30px;
+    background-color: transparent;
+    
+}
+
+section{
+
+    border-color: #c6ccd1;
+    border-radius: 1%;
+    border-width: 1px;
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+    border-radius: 1%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: stretch;
+    gap: 15px;
+    background-color: rgb(197, 215, 226);
+    
+}
+
+article{
+
+    background-color: rgb(197, 215, 226);
+    background-size: 200vh;
+    border-style: solid;
+    border-color: #c6ccd1;
+    border-radius: 1%;
+    border-width: 1px;
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+footer{
+
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 260px;
+    background-image: url(./76275.webp);
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+
+}
+
+.europa{
+
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 1%;
+    color: #d4b78a;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 2px 1px 2px #13344b;
+    
+}
+
+h3{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(211, 222, 231);
+    text-shadow: 2px 1px 2px rgb(114, 122, 128);
+    background-image: url(./fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra.jpg);
+    background-size: 200vh;
+    border-radius: 2%;
+    padding: 3%;
+    font-weight: lighter;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 231);
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px; 
+    
+}
+
+h4{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(211, 222, 231);
+    text-shadow: 2px 1px 2px rgb(114, 122, 128);
+    background-color: rgb(96, 123, 128);
+    border-radius: 2%;
+    padding: 4%;
+    font-weight: lighter;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 231);
+    background-image: url(./fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra.jpg);
+    background-size: 200vh;
+    box-shadow: rgb(238, 239, 241) 2px 2px 8px;
+}
+
+h5{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(211, 222, 231);
+    text-shadow: 2px 1px 2px rgb(114, 122, 128);
+    background-color: rgb(109, 113, 114);
+    border-radius: 2%;
+    padding: 4%;
+    font-weight: lighter;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 231);
+    background-image: url(./fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra.jpg);
+    background-size: 200vh;
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+   
+}
+
+h6{
+   
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family:'cinzel';
+    color: rgb(231, 200, 181);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgb(232, 238, 241);
+    text-shadow: 1px 1px 2px rgb(9, 72, 83);
+
+}
+     
+
+p{
+
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgb(59, 66, 71);
+   
+}
+
+#dias{
+
+    border-radius: 2%;
+    padding-left: 35px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f3efe4;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 2px 1px 2px rgb(24, 74, 99);
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+    background-color: rgb(106, 172, 177);
+
+}
+
+#dias:hover{
+
+    background-color: rgb(87, 195, 202);
+
+}
+
+img{
+
+    border-radius: 1%;
+}
+
+
+.navbar-nav{
+
+   
+    border-radius: 2%;
+    gap: 20px;     
+}
+
+
+.logoAvion{
+
+    padding-bottom: 20px;
+   
+}
+
+
+#vitoria{
+
+    width: 130%;
+    border-radius: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 231);
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+}
+
+#bilbao{
+
+    padding-bottom: 6px;
+    padding-top: 10px;
+    background-color: rgb(197, 215, 226);
+    border-radius: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 231);
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+    
+}
+
+#pamplona{
+
+    width: 120%;
+    border-radius: 2%;
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+}
+
+#imagenDia3{
+
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+}
+
+
+#sanSebastian{
+    width: 100%;
+    border-radius: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 231);
+    box-shadow: rgb(237, 243, 255) 2px 2px 8px;
+}
+
+#sociales{
+
+    display: flex;
+    width: 60px;
+     
+}
+
+#carouselExampleSlidesOnly{
+
+    border-radius: 2%;
+
+}
+
+.card-title{
+
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-text{
+
+    color: #72706e;
+    text-shadow: #c6ccd1;
+
+}
+
+#mapa1{
+
+    width: 50%;
+    border-width: 2px;
+    border-radius: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
